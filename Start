@@ -1,0 +1,14 @@
+apt  // parbaudam vai ir
+apt list g++ //parbaudam vai ir g++ compilators
+ifconfig // parbaudam vai ir wifi
+apt python-opencv      //default pw: temppwd
+    idle-python3.7
+    libcblas-dev
+    libhdf5-dev
+    libhdf5-serial-dev
+    libatlas-base-dev
+    libfasper-dev
+    libgtgni4
+    libgt4-test
+pip3 opencv-python
+     pillow    
