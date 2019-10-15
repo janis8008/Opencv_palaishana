@@ -1,7 +1,20 @@
 apt  // parbaudam vai ir
 apt list g++ //parbaudam vai ir g++ compilators
 ifconfig // parbaudam vai ir wifi
-apt python-opencv      //default pw: temppwd
+
+
+In a terminal I entered:
+sudo pico /etc/apt/sources.list
+
+https://www.raspbian.org/RaspbianRepository
+
+wget https://archive.raspbian.org/raspbian.public.key
+sudo apt-key add raspbian.public.key  skatās pēdējo no instalācijas
+
+https://tecadmin.net/install-python-3-7-on-ubuntu-linuxmint/
+sudo apt install python3-pip        instalē visu , vajag tikkai šo
+
+sudo apt-get install python-opencv      //default pw: temppwd
     idle-python3.7
     libcblas-dev
     libhdf5-dev
